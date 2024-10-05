@@ -2,9 +2,9 @@ import React from "react";
 
 function NavBar({ onContactClick }) {
   return (
-    <div className="w-full">
+    <div className="w-full md:w-full">
       <div className="bg-[#1e0d60] text-white flex flex-col md:flex-row justify-between items-center px-4 py-3">
-        <div className="Nav-Brand text-center w-full md:w-auto md:text-left">
+        <div className="Nav-Brand text-center w-full md:w-full md:text-left">
           <h1 className="font-dancing text-2xl md:text-3xl">
             Dhanusha Murugan
           </h1>

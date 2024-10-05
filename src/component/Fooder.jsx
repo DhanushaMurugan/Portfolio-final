@@ -7,7 +7,7 @@ function Fooder() {
   const resume = "/DhanushaMResume-final.pdf";
 
   return (
-    <div className="border-2 border-gray-300 bg-[#1e0d60] text-white text-lg">
+    <div className="border-2 md:w-full border-gray-300 bg-[#1e0d60] text-white text-lg">
       <div className="flex flex-col md:flex-row justify-around p-8">
         {/* Contact Information */}
         <div className="text-left w-full md:w-auto mb-4 md:mb-0">

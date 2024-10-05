@@ -5,7 +5,7 @@ function Header({ onContactClick }) {
   const resume = "/DhanushaMResume-final.pdf";
 
   return (
-    <div className="flex flex-col md:flex-row w-full justify-around p-4 mt-6 md:p-8">
+    <div className="flex flex-col md:flex-row w-full md:w-full justify-around p-4 mt-6 md:p-8">
       <div className="flex flex-col md:flex-row items-center justify-between max-w-full w-full mx-auto">
         {/* Left Side - Text Content */}
         <div className="header-content w-full md:w-2/3 text-left space-y-4 flex flex-col justify-center ml-5 md:mr-8">

@@ -6,7 +6,7 @@ import multitasker from "../image/multitasker.jpeg";
 
 function Projects() {
   return (
-    <div className="w-full px-5 py-4">
+    <div className="w-full px-5 md:w-full py-4">
       <div className="text-start text-lg mb-4">
         <h2 className="text-2xl font-semibold mt-5 mb-8">Projects</h2>
       </div>
