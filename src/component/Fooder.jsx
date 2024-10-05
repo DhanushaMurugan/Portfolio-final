@@ -8,12 +8,12 @@ function Fooder() {
 
   return (
     <div className="border-2 md:w-full w-full border-gray-300 bg-[#1e0d60] text-white text-lg">
-      <div className="flex flex-col md:flex-row justify-around p-8">
+      <div className="flex flex-col md:flex-row justify-around pt-8 pl-8 pb-8">
         {/* Contact Information */}
         <div className="text-left w-full md:w-auto mb-4 md:mb-0">
           <h3 className="text-2xl mb-4">Contact Me</h3>
 
-          <div className="flex items-center mb-4">
+          <div className="flex items-center md:text-sm mb-4">
             <img src={phoneicon} alt="phone-icon" className="w-12" />
             <p className="ml-2">+91 6385499934</p>
           </div>

@@ -35,8 +35,8 @@ function Projects() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <span className="text-sm md:text-base">
-              https://github.com/DhanushaMurugan/Foodpanda-project
+            <span className="text-sm md:text-base ">
+              https://github.com/DhanushaMurugan<br></br>/Foodpanda-project
             </span>
           </a>
         </div>
