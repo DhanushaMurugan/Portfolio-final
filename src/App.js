@@ -1,23 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useRef } from "react";
+import "./App.css";
+
+import About from "./component/About";
+import Fooder from "./component/Fooder";
+import Header from "./component/Header";
+import NavBar from "./component/NavBar";
+import Projects from "./component/Projects";
+import Skills from "./component/Skills";
 
 function App() {
+  const footerRef = useRef(null);
+
+  // Function to scroll to the footer
+  const scrollToFooter = () => {
+    footerRef.current?.scrollIntoView({ behavior: "smooth" });
+  };
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NavBar onContactClick={scrollToFooter} />
+      <Header onContactClick={scrollToFooter} />
+      <About />
+      <Skills />
+      <Projects />
+      <div ref={footerRef}>
+        <Fooder />
+      </div>
     </div>
   );
 }
