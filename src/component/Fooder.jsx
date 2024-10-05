@@ -10,7 +10,7 @@ function Fooder() {
     <div className="border-2 border-gray-300 bg-[#1e0d60] text-white text-lg">
       <div className="flex flex-col md:flex-row justify-around p-8">
         {/* Contact Information */}
-        <div className="text-left w-full md:w-1/2 mb-4 md:mb-0">
+        <div className="text-left w-full md:w-auto mb-4 md:mb-0">
           <h3 className="text-2xl mb-4">Contact Me</h3>
 
           <div className="flex items-center mb-4">
