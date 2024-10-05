@@ -11,7 +11,7 @@ import github from "../image/github.png";
 
 function Skills() {
   return (
-    <div className="w-full px-5 py-2 mt-4 ">
+    <div className="w-full  py-2 mt-4 ">
       <div className="text-start text-lg">
         <h2 className="text-2xl font-semibold mb-4   ml-4">Skills</h2>
       </div>

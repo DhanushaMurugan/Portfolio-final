@@ -3,13 +3,13 @@ import React from "react";
 function NavBar({ onContactClick }) {
   return (
     <div className="w-full md:w-full">
-      <div className="bg-[#1e0d60] text-white flex flex-col md:flex-row justify-between items-center px-4 py-3">
+      <div className="bg-[#1e0d60] text-white flex flex-col md:flex-row justify-between items-center pt-2 pb-2 ">
         <div className="Nav-Brand text-center w-full md:w-full md:text-left">
-          <h1 className="font-dancing text-2xl md:text-3xl">
+          <h1 className="font-dancing text-2xl ml-4 md:text-3xl">
             Dhanusha Murugan
           </h1>
         </div>
-        <div className="Nav-Menu w-full flex flex-row justify-center mt-3 space-x-4">
+        <div className="Nav-Menu w-full flex flex-row justify-center mt-3 space-x-20">
           <div>
             <h1 className="text-xl md:text-2xl cursor-pointer">Home</h1>
           </div>
