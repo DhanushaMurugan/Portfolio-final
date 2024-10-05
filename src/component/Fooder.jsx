@@ -18,12 +18,12 @@ function Fooder() {
             <p className="ml-2">+91 6385499934</p>
           </div>
 
-          <div className="flex items-center mb-4">
+          <div className="flex items-center md:text-sm mb-4">
             <img src={gmailicon} alt="gmail-icon" className="w-9" />
             <p className="ml-2">mdhanusha7@gmail.com</p>
           </div>
 
-          <div className="flex items-center mb-4">
+          <div className="flex items-center md:text-sm mb-4">
             <img src={githubicon} alt="github-icon" className="w-11" />
             <a
               href="https://github.com/DhanushaMurugan"
