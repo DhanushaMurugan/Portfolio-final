@@ -36,7 +36,7 @@ function Projects() {
             rel="noopener noreferrer"
           >
             <span className="text-sm md:text-base ">
-              https://github.com/DhanushaMurugan<br></br>/Foodpanda-project
+             Click Here
             </span>
           </a>
         </div>
@@ -59,7 +59,7 @@ function Projects() {
             rel="noopener noreferrer"
           >
             <span className="text-sm md:text-base">
-              https://github.com/DhanushaMurugan/Heaven-project
+              Click Here
             </span>
           </a>
         </div>

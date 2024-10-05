@@ -37,7 +37,7 @@ function Fooder() {
         </div>
 
         {/* Download Resume Button */}
-        <div className="w-full md:w-1/4 flex flex-col items-center justify-center mb-4 md:mb-0">
+        <div className="w-full md:w-auto flex flex-col items-center justify-center mb-4 md:mb-0">
           <a href={resume} download>
             <button className="bg-white text-black font-medium text-lg py-3 px-4 rounded-full shadow-md hover:bg-gray-200 w-full md:w-auto">
               Download Resume
