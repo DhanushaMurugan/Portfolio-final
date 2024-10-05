@@ -14,13 +14,15 @@ function Projects() {
       {/* Row 1 - FoodPanda and Heaven Projects */}
       <div className="flex flex-wrap justify-center mb-10">
         {/* Card for FoodPanda Project */}
-        <div className="border border-gray-300 text-gray-600 rounded-lg m-2 p-4 flex flex-col items-center w-full md:w-5/12 lg:max-w-lg">
+        <div className="border border-gray-300 text-gray-600 rounded-lg m-2 p-4 flex flex-col items-center w-full md:w-auto lg:max-w-lg">
           <img
             src={foodpanda}
             alt="foodpanda-img"
             className="w-full mb-4 rounded"
           />
-          <h2 className="text-2xl font-semibold mb-2">E-Commerce Website</h2>
+          <h2 className="text-2xl text-center font-semibold mb-2">
+            E-Commerce Website
+          </h2>
           <p className="text-lg text-center mb-2">
             Replicated a Food Panda landing page, creating an engaging and
             interactive design to showcase platform features. Enhanced HTML
@@ -38,9 +40,9 @@ function Projects() {
         </div>
 
         {/* Card for Heaven Project */}
-        <div className="border border-gray-300 text-gray-600 rounded-lg m-2 p-4 flex flex-col items-center w-full md:w-5/12 lg:max-w-lg">
+        <div className="border border-gray-300 text-gray-600 rounded-lg m-2 p-4 flex flex-col items-center w-full md:w-auto lg:max-w-lg">
           <img src={heaven} alt="heaven" className="w-full mb-4 rounded" />
-          <h2 className="text-2xl font-semibold mb-2">
+          <h2 className="text-2xl text-center font-semibold mb-2">
             E-Commerce Website (Heaven Masala)
           </h2>
           <p className="text-lg text-center mb-2">
@@ -62,13 +64,13 @@ function Projects() {
       {/* Row 2 - RecipeBox and Multitasker Projects */}
       <div className="flex flex-wrap justify-center mb-10">
         {/* Card for RecipeBox Project */}
-        <div className="border border-gray-300 text-gray-600 rounded-lg m-2 p-4 flex flex-col items-center w-full md:w-5/12 lg:max-w-lg">
+        <div className="border border-gray-300 text-gray-600 rounded-lg m-2 p-4 flex flex-col items-center w-full md:w-auto lg:max-w-lg">
           <img
             src={recipebox}
             alt="recipebox-img"
             className="w-full mb-4 rounded"
           />
-          <h2 className="text-2xl font-semibold mb-2 mt-4">
+          <h2 className="text-2xl text-center font-semibold mb-2 mt-4">
             Recipe Box - Interactive Website
           </h2>
           <p className="text-lg text-center mb-2">
@@ -89,13 +91,13 @@ function Projects() {
         </div>
 
         {/* Card for Multitasker Project */}
-        <div className="border border-gray-300 text-gray-600 rounded-lg m-2 p-4 flex flex-col items-center w-full md:w-5/12 lg:max-w-lg">
+        <div className="border border-gray-300 text-gray-600 rounded-lg m-2 p-4 flex flex-col items-center w-full md:w-auto lg:max-w-lg">
           <img
             src={multitasker}
             alt="multitasker-img"
             className="w-full mb-4 rounded"
           />
-          <h2 className="text-2xl font-semibold mb-2 mt-4">
+          <h2 className="text-2xl text-center font-semibold mb-2 mt-4">
             Multitasker Web Application
           </h2>
           <p className="text-lg text-center mb-2">

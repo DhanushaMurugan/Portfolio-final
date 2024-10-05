@@ -16,15 +16,15 @@ function Header({ onContactClick }) {
           <h5 className="text-2xl text-gray-600">Front-end Developer...</h5>
           <hr className="border-gray-300 my-4" />
           {/* Buttons */}
-          <div className="header-button space-x-4">
+          <div className="header-button space-y-4 md:space-x-4 md:space-y-0 flex flex-col md:flex-row">
             <button
               onClick={onContactClick}
-              className="bg-[#1e0d60] text-xl text-white px-6 py-2 rounded-full hover:bg-gray-700 transition duration-300"
+              className="bg-[#1e0d60] text-xl text-white px-6 py-2 rounded-full hover:bg-gray-700 transition duration-300 w-full md:w-auto"
             >
               Contact Me
             </button>
-            <a href={resume} download>
-              <button className="bg-[#1e0d60] text-xl text-white px-6 py-2 rounded-full hover:bg-gray-700 transition duration-300">
+            <a href={resume} download className="w-full md:w-auto">
+              <button className="bg-[#1e0d60] text-xl text-white px-6 py-2 rounded-full hover:bg-gray-700 transition duration-300 w-full">
                 Download Resume
               </button>
             </a>
