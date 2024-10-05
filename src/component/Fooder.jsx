@@ -2,7 +2,7 @@ import React from "react";
 import phoneicon from "../image/telephone.png";
 import gmailicon from "../image/gmail.png";
 import githubicon from "../image/github1.png";
-import resume from "file:///C:/Users/91638/Downloads/DhanushaM%20Resume.pdf"; // Update this path
+import resume from "file:///C:/Users/91638/Downloads/DhanushaMResume-final.pdf"; // Update this path
 
 function Fooder() {
   return (

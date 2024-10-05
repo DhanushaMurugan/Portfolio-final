@@ -1,6 +1,6 @@
 import React from "react";
 import profile from "../image/profile.png"; // Ensure this is the correct path to your image
-import resume from "file:///C:/Users/91638/Downloads/DhanushaM%20Resume.pdf"; // Update this path
+import resume from "file:///C:/Users/91638/Downloads/DhanushaMResume-final.pdf"; // Update this path
 function Header({ onContactClick }) {
   return (
     <div className="flex flex-col md:flex-row w-full justify-around p-4 mt-6 md:p-8">
