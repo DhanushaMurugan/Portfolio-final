@@ -2,9 +2,10 @@ import React from "react";
 import phoneicon from "../image/telephone.png";
 import gmailicon from "../image/gmail.png";
 import githubicon from "../image/github1.png";
-import resume from "file:///C:/Users/91638/Downloads/DhanushaMResume-final.pdf"; // Update this path
+
 
 function Fooder() {
+     const resume = "/DhanushaMResume-final.pdf";
   return (
     <div className="border-2 border-gray-300 bg-[#1e0d60] text-white text-lg">
       <div className="flex flex-col md:flex-row justify-around p-8">
