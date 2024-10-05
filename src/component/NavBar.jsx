@@ -1,11 +1,13 @@
+
+
 import React from 'react'
 
 function NavBar({ onContactClick }) {
   return (
     <div>
       <div className="bg-[#1e0d60] text-white flex flex-wrap justify-between items-center px-4 py-3">
-        <div className="Nav-Brand text-start w-full md:w-auto">
-          <h1 className="font-dancing text-2xl md:text-3xl">
+        <div className="Nav-Brand text-center w-full md:w-auto md:text-left">
+          <h1 className="font-dancing text-2xl md:text-3xl ">
             Dhanusha Murugan
           </h1>
         </div>

@@ -4,14 +4,7 @@ import about from "../image/aboutme.jpg"; // Ensure this is the correct path to 
 function About() {
   return (
     <div className="flex flex-col md:flex-row items-center justify-between max-w-full mt-4">
-      <div className="relative mb-8 w-full md:w-1/2">
-        <img
-          src={about}
-          alt="about-img"
-          className="w-full h-auto max-w-lg mx-auto" // Decreased image size
-        />
-      </div>
-      <div className="max-w-4xl w-full md:w-1/2 text-left text-gray-800 p-6">
+      <div className="max-w-4xl w-full md:w-1/2 text-left text-gray-800 ml-4 p-6">
         <div className="mb-4">
           <h2 className="text-2xl font-semibold">About Me</h2>{" "}
           {/* Increased font size */}
@@ -64,7 +57,13 @@ function About() {
           </p>
         </div>
       </div>
-      
+      <div className="relative mb-8 w-full md:w-1/2">
+        <img
+          src={about}
+          alt="about-img"
+          className="w-full h-auto max-w-lg mx-auto" // Decreased image size
+        />
+      </div>
     </div>
   );
 }
