@@ -35,7 +35,7 @@ function Projects() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <span className="text-sm md:text-base pr-2 pl-2 ">
+            <span className="text-sm md:text-base pr-4 pl-4 ">
               https://github.com/DhanushaMurugan/Foodpanda-project
             </span>
           </a>
@@ -58,7 +58,7 @@ function Projects() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <span className="text-sm md:text-base pr-2 pl-2">
+            <span className="text-sm md:text-base pr-4 pl-4">
               https://github.com/DhanushaMurugan/Heaven-project
             </span>
           </a>

@@ -19,16 +19,25 @@ function Header({ onContactClick }) {
           <div className="header-button space-y-4 md:space-x-4 md:space-y-0 flex flex-col md:flex-row">
             <button
               onClick={onContactClick}
-              className="bg-[#1e0d60] text-xl text-white px-6 py-2 rounded-full hover:bg-gray-700 transition duration-300 w-full md:w-auto"
+              className="bg-[#1e0d60] text-lg md:text-xl text-white px-4 py-2 md:px-0 md:py-2 rounded-full hover:bg-gray-700 transition duration-300 w-full md:w-auto"
             >
               Contact Me
             </button>
             <a href={resume} download className="w-full md:w-auto">
-              <button className="bg-[#1e0d60] text-xl text-white px-6 py-2 rounded-full hover:bg-gray-700 transition duration-300 w-full">
+              <button className="bg-[#1e0d60] text-lg md:text-xl text-white px-4 py-2 md:px-0 md:py-2 rounded-full hover:bg-gray-700 transition duration-300 w-full">
                 Download Resume
               </button>
             </a>
           </div>
+        </div>
+
+        {/* Right Side - Profile Image */}
+        <div className="profile mt-8 md:mt-0 w-full md:w-1/3 flex justify-center items-center md:justify-start">
+          <img
+            src={profile}
+            alt="profile-img"
+            className="w-48 h-48 md:w-72 md:h-72 rounded-full object-cover shadow-lg" // Adjusted image size for mobile
+          />
         </div>
 
         {/* Right Side - Profile Image */}
@@ -98,3 +107,18 @@ export default Header;
 // }
 
 // export default Header;
+
+//  <div className="header-button space-y-4 md:space-x-4 md:space-y-0 flex flex-col md:flex-row">
+//             <button
+//               onClick={onContactClick}
+//               className="bg-[#1e0d60] text-xl text-white px-6 py-2 rounded-full hover:bg-gray-700 transition duration-300 w-full md:w-auto"
+//             >
+//               Contact Me
+//             </button>
+//             <a href={resume} download className="w-full md:w-auto">
+//               <button className="bg-[#1e0d60] text-xl text-white px-6 py-2 rounded-full hover:bg-gray-700 transition duration-300 w-full">
+//                 Download Resume
+//               </button>
+//             </a>
+//           </div>
+//         </div>
