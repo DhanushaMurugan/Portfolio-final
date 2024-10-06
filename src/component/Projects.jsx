@@ -8,13 +8,13 @@ function Projects() {
   return (
     <div className="w-full  md:w-full py-4">
       <div className="text-start text-lg mb-4">
-        <h2 className="text-2xl font-semibold mt-5 mb-8">Projects</h2>
+        <h2 className="text-2xl font-semibold mt-5 ml-4 mb-8">Projects</h2>
       </div>
 
       {/* Row 1 - FoodPanda and Heaven Projects */}
       <div className="flex flex-wrap justify-center mb-10">
         {/* Card for FoodPanda Project */}
-        <div className="border border-gray-300 text-gray-600 rounded-lg m-2 p-4 flex flex-col items-center w-full max-w-xs sm:max-w-md">
+        <div className="border border-gray-300 text-gray-600 rounded-lg m-2 p-2 flex flex-col items-center w-full max-w-xs sm:max-w-lg">
           <img
             src={foodpanda}
             alt="foodpanda-img"
@@ -35,8 +35,8 @@ function Projects() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <span className="text-sm md:text-base ">
-             Click Here
+            <span className="text-sm md:text-base pr-2 pl-2 ">
+              https://github.com/DhanushaMurugan/Foodpanda-project
             </span>
           </a>
         </div>
@@ -58,8 +58,8 @@ function Projects() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <span className="text-sm md:text-base">
-              Click Here
+            <span className="text-sm md:text-base pr-2 pl-2">
+              https://github.com/DhanushaMurugan/Heaven-project
             </span>
           </a>
         </div>
